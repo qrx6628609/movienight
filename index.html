@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>首页 — 我的电影网</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <!--header-->
+  <header id="header" class="header">
+    </header>
+ <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4>用户登录</h4>
+                    <p class="alert">
+                        请在此处输入您的注册信息
+                    </p>
+                    <form id="login-form">
+                        <input type="text" placeholder="请输入登录用户名" name="uname" value="star">
+                        <input type="password" placeholder="请输入登录密码" name="upwd" value="123456">
+                        <input type="button" value="提交登录信息" id="bt-login">
+                    </form>
+                </div>
+            </div>
+        </div>
+  <!--main-->
+  <div class="main">
+    <!--section 1-->
+    <div class="container">
+      <div class="logobar">
+        <a class="logo" href="#">我的电影网</a>
+        <div class="right relative">
+          <span class="icon-search"></span>
+          <input class="search" type="text" placeholder="搜索电影名...">
+        </div>
+      </div>
+      <div class="navbar">
+        <span class="icon-home"></span>
+        <ul class="left">
+          <li class="active"><a href="#">首页</a></li><li><a href="#">影讯</a></li><li><a href="#">院线</a></li><li><a href="#">订票</a></li>
+        </ul>
+        <ul class="right">
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+      <div id="carousel" class="carousel">
+        <ul id="images" class="images">
+          </ul>
+        <ul id="indicator" class="indicator">
+        </ul>
+      </div>
+      <div class="slider">
+        <ul>
+          <li>
+            <div>
+              <a href="#">
+                <img src="img/r1.jpg">
+                <p class="fname">影片名称</p>
+              </a>
+              <a href="#" class="bottom">
+                <p class="fdate">6月25日</p>
+                <p class="fcinema">多院线上映</p>
+              </a>
+            </div>
+          </li><li>
+          <div>
+            <a href="#">
+              <img src="img/r2.jpg">
+              <p class="fname">影片名称</p>
+            </a>
+            <a href="#" class="bottom">
+              <p class="fdate">6月28日</p>
+              <p class="fcinema">多院线上映</p>
+            </a>
+          </div>
+        </li><li>
+          <div>
+            <a href="#">
+              <img src="img/r3.jpg">
+              <p class="fname">影片名称</p>
+            </a>
+            <a href="#" class="bottom">
+              <p class="fdate">7月5日</p>
+              <p class="fcinema">多院线上映</p>
+            </a>
+          </div>
+        </li><li>
+          <div>
+            <a href="#">
+              <img src="img/r4.jpg">
+              <p class="fname">影片名称</p>
+            </a>
+            <a href="#" class="bottom">
+              <p class="fdate">7月25日</p>
+              <p class="fcinema">多院线上映</p>
+            </a>
+          </div>
+        </li><li>
+          <div>
+            <a href="#">
+              <img src="img/r5.jpg">
+              <p class="fname">影片名称</p>
+            </a>
+            <a href="#" class="bottom">
+              <p class="fdate">8月5日</p>
+              <p class="fcinema">多院线上映</p>
+            </a>
+          </div>
+        </li><li>
+          <div>
+            <a href="#">
+              <img src="img/r6.jpg">
+              <p class="fname">影片名称</p>
+            </a>
+            <a href="#" class="bottom">
+              <p class="fdate">8月10日</p>
+              <p class="fcinema">多院线上映</p>
+            </a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <!--section 2-->
+    <div class="container">
+      <div class="col">
+        <div class="block">
+          <h4>最新影片</h4>
+          <ul>
+            <li><a href="#">正在上映</a></li>
+            <li><a href="#">即将上映</a></li>
+            <li><a href="#">追星一族</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>电影评论</h4>
+          <ul>
+            <li><a href="#">娱乐新闻</a></li>
+            <li><a href="#">七嘴八舌</a></li>
+            <li><a href="#">专业影评</a></li>
+            <li><a href="#">嘉宾博客</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>影片预告</h4>
+          <ul>
+            <li><a href="#">正在上映</a></li>
+            <li><a href="#">即将上映</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="block">
+          <h4>区域院线</h4>
+          <ul>
+            <li><a href="#">所有地区</a></li>
+            <li><a href="#">连锁院线</a></li>
+            <li><a href="#">周边院线</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>按语言划分</h4>
+          <ul>
+            <li><a href="#">印度语</a></li>
+            <li><a href="#">英语</a></li>
+            <li><a href="#">汉语</a></li>
+            <li><a href="#">日语</a></li>
+            <li><a href="#">韩语</a></li>
+            <li><a href="#">德语</a></li>
+            <li><a href="#">法语</a></li>
+            <li><a href="#">西班牙语</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="block">
+          <h4>独家放送</h4>
+          <ul>
+            <li><a href="#">开心一笑</a></li>
+            <li><a href="#">明星动态</a></li>
+            <li><a href="#">最新影讯</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>使用帮助</h4>
+          <ul>
+            <li><a href="#">网站地图</a></li>
+            <li><a href="#">用户反馈</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">法律条款</a></li>
+            <li><a href="#">隐私条款</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="block">
+          <h4>电影分类</h4>
+          <ul>
+            <li><a href="#">动作片</a></li>
+            <li><a href="#">言情片</a></li>
+            <li><a href="#">喜剧</a></li>
+            <li><a href="#">冒险</a></li>
+            <li><a href="#">科幻片</a></li>
+            <li><a href="#">犯罪</a></li>
+            <li><a href="#">惊险</a></li>
+            <li><a href="#">家庭片</a></li>
+            <li><a href="#">音乐</a></li>
+            <li><a href="#">悲剧</a></li>
+            <li><a href="#">纪录片</a></li>
+            <li><a href="#">访谈</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer id="footer">
+      </footer>
+  
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

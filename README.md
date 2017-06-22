@@ -11,4 +11,4 @@
 
 运行编译
 
-xampp
+xampp（Apache&&Mysql）
